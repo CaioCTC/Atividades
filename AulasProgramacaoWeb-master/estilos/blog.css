@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif; 
+    background-image: url(../imagens/li.png);
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+section img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 25px;
+    border: double 10px gray;
+}
+
+header{
+    border: 5px double gray;
+    position: fixed;    
+    width: 100%
+    
+}
+
+header li a{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+.botao{
+    margin:0px;
+    padding:0px;
+    
+}
+
+.botao a {  
+    font: bold 15px;
+    color:rgb(255, 196, 0);
+    background:#0f0d0bf8;;	
+    width:100px;  
+    height:2.9em;	
+    display: block;	
+    padding-top: 1em;
+    padding-bottom: 1.7em; 
+    border: 2px solid gray;
+;
+}
+
+.botao a:hover { 
+    background: rgb(255, 196, 0) url('botao_hover.gif') no-repeat center;
+    color:#0f0d0bf8;; 
+    opacity: 0.8;
+}
+
+ header ul{
+     text-align: center;
+ }
+
+header li a{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+header li a:hover{
+    color:orangered;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+header li{
+    display: inline-block;
+    margin-right: 5em;
+}
+
+#contato li {
+    display: inline-block;
+}
+
+#contato li a{
+    display: inline-block;
+    margin: 0.8em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px; 
+}
+
+#contato li a:hover{
+    background:rgb(255, 196, 0) url url('botao_hover.gif') no-repeat center;
+    opacity: 0.5;
+}
+
+#contato .email{
+    background-image: url("../imagens/email.png");  
+}
+
+#contato .facebook{
+    background-image: url("../imagens/fac.png");
+}
+
+#contato .twitter{
+    background-image: url("../imagens/twitter.png");
+}
+
+#contato .github{
+    background-image: url("../imagens/github.png");
+}
+
+#contato .wp{
+    background-image: url("../imagens/wp.png");
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+section h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 0.5em;
+    font-weight: bold;
+    color:  rgb(255, 196, 0);
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
+    background-color: #0f0d0bf8;
+    border-radius: 30px;
+    text-shadow: 1px 1px 3px black;
+    width: 100%;
+    
+}
+
+.identificacao{
+    background-color: #0f0d0b;
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+    padding: 10em 2em 7em;
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
+    text-shadow: 4px 4px 6px #000000;
+}
+
+.identificacao h1{
+    font-size: 3.5em;
+    margin-bottom: 0.7em; 
+}
+
+.identificacao h2{
+    font-size: 2.5em;
+    font-weight: lighter;
+    font-weight: bold;  
+}
+
+
+#sobre p.text {
+    margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
+    text-shadow: 1px 1px 3px black;
+}
+
+#sobre{
+    position: relative;
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
+}
+
+#sobre img{
+    width: 300px;
+    height: 211px;
+    right: 14%;
+    position: absolute;
+    top: 0.8em;
+    border-radius: 25px;
+    border: solid 5px black;
+}
+
+#sobre p.bio {
+    color: rgb(255, 196, 0);
+    font-size: 1.5em;
+    margin: 1em;
+    width: 50%;
+    text-shadow: 1px 1px 3px black;
+}
+
+.escuras{
+    background-color: #0f0d0b;
+    color: #fcfcfd;
+
+}
+
+.claras{
+    background-color: rgba(47, 35, 35, 0.931);
+    color: #2b313e;
+}
+
+.projetos-header{
+    float: left;
+    width: 30%;
+}
+
+.projetos-header h3{
+    margin-top: 2em;
+}
+
+.styleprojetos{
+    margin-left: 0%;
+}
+
+.styleprojetos li{
+    background-color:  #0f0d0bf8;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 25px;
+    border: solid 5px grey
+}
+
+.styleprojetos li p{
+    color: #fff;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    text-align: center;    
+    line-height: 1.5;
+    text-shadow: 1px 1px 3px black;
+}
+
+.styleprojetos li a{
+  color:rgb(255, 196, 0);
+  font-size: 1.3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+}
+
+.styleprojetos li a:hover{
+    color:  orangered;
+    font-size: 1.3em;
+    opacity: 0.5;
+  }
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
+
+}
