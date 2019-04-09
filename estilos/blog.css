@@ -3,7 +3,10 @@
 }
 
 body{
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif; 
+    background-image: url(../imagens/li.png);
+    background-attachment: fixed;
+    
 }
 
 a{
@@ -15,12 +18,11 @@ section img{
     width: 100%;
     max-width: 300px;
     border-radius: 25px;
-    border: double 10px black;
+    border: double 10px gray;
 }
 
 header{
-    border-bottom: 5px double black;
-    border-top: 5px double black;
+    border: 5px double gray;
     position: fixed;    
     width: 100%
     
@@ -34,23 +36,26 @@ header li a{
 .botao{
     margin:0px;
     padding:0px;
+    
 }
 
 .botao a {  
     font: bold 15px;
     color:rgb(255, 196, 0);
-    background:#49280ef8;	
+    background:#0f0d0bf8;;	
     width:100px;  
     height:2.9em;	
     display: block;	
     padding-top: 1em;
-    padding-bottom: 1.7em;
-    
+    padding-bottom: 1.7em; 
+    border: 2px solid gray;
+;
 }
 
 .botao a:hover { 
     background: rgb(255, 196, 0) url('botao_hover.gif') no-repeat center;
-    color:black; 
+    color:#0f0d0bf8;; 
+    opacity: 0.8;
 }
 
  header ul{
@@ -79,15 +84,15 @@ header li{
 
 #contato li a{
     display: inline-block;
-    margin: 2em;
+    margin: 0.8em;
     width: 48px;
     height: 48px;
     text-indent: -9999px; 
 }
 
 #contato li a:hover{
-    background: transparent url('botao_hover.gif') no-repeat center;
-    
+    background:rgb(255, 196, 0) url url('botao_hover.gif') no-repeat center;
+    opacity: 0.2;
 }
 
 #contato .email{
@@ -129,20 +134,22 @@ section h3{
     padding: 0.5em;
     font-weight: bold;
     color:  rgb(255, 196, 0);
-    border-bottom:10px double #030303f8;
-    border-top: 10px double  #030303f8; 
-    background-color: #49280ef8;
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
+    background-color: #0f0d0bf8;
     border-radius: 30px;
     text-shadow: 1px 1px 3px black;
     width: 100%;
+    
 }
 
-.identificacao{
-    background-color:#49280ef8;
+.identificacao{ 
+    background-color: #0f0d0b;
     color: rgb(255, 196, 0);
     font-weight: bold;
     padding: 10em 2em 7em;
-    border-bottom: 10px double black;
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
     text-shadow: 4px 4px 6px #000000;
 }
 
@@ -168,8 +175,8 @@ section h3{
 
 #sobre{
     position: relative;
-    border-bottom:10px double #030303f8;
-    border-top: 10px double  #030303f8;
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
 }
 
 #sobre img{
@@ -177,9 +184,9 @@ section h3{
     height: 211px;
     right: 14%;
     position: absolute;
-    top: 0.8em;
+    top: 0em;
     border-radius: 25px;
-    border: solid 5px black;
+    
 }
 
 #sobre p.bio {
@@ -191,13 +198,13 @@ section h3{
 }
 
 .escuras{
-    background-color: #49280ef8;
+    background-color: #0f0d0b;
     color: #fcfcfd;
+
 }
 
 .claras{
-    background-color:grey;
-    color: #2b313e;
+    background-color: rgba(47, 35, 35, 0.911);
 }
 
 .projetos-header{
@@ -214,10 +221,11 @@ section h3{
 }
 
 .styleprojetos li{
-    background-color: #49280ef8;
+    background-color:  #0f0d0bf8;
     padding: 1em;
     margin-bottom: 2em;
     border-radius: 25px;
+    border: solid 5px grey
 }
 
 .styleprojetos li p{
@@ -239,11 +247,13 @@ section h3{
 .styleprojetos li a:hover{
     color:  orangered;
     font-size: 1.3em;
+    opacity: 0.5;
   }
 
 footer {
     padding-top: 1em;
     padding-bottom: 1em;
-    border-top: 10px double #030303f8;
-    text-shadow: 1px 1px 3px black;
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
+
 }
