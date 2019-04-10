@@ -177,12 +177,14 @@ section h3{
 }
 
 #sobre img{
-    width: 50%;
+    
+    width: 18em;
     height: 12em;
     position: unset;
     float: right;
     border-radius: 1em;
-    border:solid 1px gray;
+    border:solid 2px gray;
+    margin-top: 0%;
     
 }
 
@@ -251,7 +253,7 @@ section h3{
 
   .styleprojetos li iframe{
     padding: 0.5em;
-    margin-top: 5em;
+    margin-top: 1em;
     border-radius: 25px;
     border: solid 1px grey;
     width: 60%;
